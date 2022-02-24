@@ -3,7 +3,7 @@ class: CommandLineTool
 id: samtools_sort
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/samtools:147bd4cc606a63c7435907d97fea6e94e9ea9ed58c18f390cab8bc40b1992df7 
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/samtools:147bd4cc606a63c7435907d97fea6e94e9ea9ed58c18f390cab8bc40b1992df7 
   - class: InlineJavascriptRequirement
     expressionLib:
       $import: ./util_lib.cwl

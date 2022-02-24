@@ -4,7 +4,7 @@ id: star_align
 requirements:
   - class: ShellCommandRequirement
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/star2:2.7.5c
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/star2:2.7.5c
   - class: SchemaDefRequirement
     types:
       - $import: readgroup.cwl

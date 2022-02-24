@@ -3,7 +3,7 @@ class: CommandLineTool
 id: star_generate_genome
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/star2:feat_2.7.0f
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/star2:feat_2.7.0f
   - class: InlineJavascriptRequirement
 
 inputs:

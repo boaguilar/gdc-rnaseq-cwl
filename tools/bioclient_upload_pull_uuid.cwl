@@ -3,7 +3,7 @@ class: CommandLineTool
 id: bioclient_upload_pull_uuid
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/bio-client:latest
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/bio-client:latest
   - class: InlineJavascriptRequirement
   - class: ResourceRequirement
     coresMin: 1

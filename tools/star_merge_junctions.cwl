@@ -3,7 +3,7 @@ class: CommandLineTool
 id: star_merge_junctions
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/gdc-rnaseq-tool:1.0.0
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/gdc-rnaseq-tool:1.0.0
   - class: InlineJavascriptRequirement
     expressionLib:
       $import: ./util_lib.cwl

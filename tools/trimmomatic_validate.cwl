@@ -6,7 +6,7 @@ requirements:
     types:
       - $import: readgroup.cwl
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/trimmomatic:0.38
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/trimmomatic:0.38
   - class: InlineJavascriptRequirement
     expressionLib:
       $import: ./util_lib.cwl

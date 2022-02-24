@@ -3,7 +3,7 @@ class: CommandLineTool
 id: extract_fastqs_from_tarball
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/bio-tarball-to-fastqgz:0.1.0-8-gc710d20
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/bio-tarball-to-fastqgz:0.1.0-8-gc710d20
   - class: InlineJavascriptRequirement
   - class: ResourceRequirement
     coresMin: 1

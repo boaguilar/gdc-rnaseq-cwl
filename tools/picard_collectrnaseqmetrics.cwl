@@ -3,7 +3,7 @@ class: CommandLineTool
 id: picard_collectrnaseqmetrics
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/picard:2.26.10
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/picard:2.26.10
   - class: InlineJavascriptRequirement
     expressionLib:
       $import: ./util_lib.cwl

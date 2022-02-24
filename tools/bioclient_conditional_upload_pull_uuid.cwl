@@ -4,7 +4,7 @@ id: bioclient_conditional_upload_pull_uuid
 requirements:
   - class: InlineJavascriptRequirement
   - class: DockerRequirement
-    dockerPull: quay.io/ncigdc/bio-client:latest
+    dockerPull: us-docker.pkg.dev/gbm-gender/ncigdc-rnaseq/bio-client:latest
   - class: InitialWorkDirRequirement
     listing: |
       ${
